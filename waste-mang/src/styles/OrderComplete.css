@@ -1,0 +1,45 @@
+.order-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px; 
+    align-items: center; /* Center items vertically */
+  }
+  
+  .checkmark-image {
+    width: 240px; /* Adjust width as needed */
+    height: 240px; /* Adjust height as needed */
+    margin-right: 12px; /* Add some margin between the image and text */
+  }
+  
+  .order-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #000;
+  }
+  
+  .order-message {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .order-points {
+    font-size: 1rem;
+    color: #2196f3;
+  }
+  
+  .continue-button {
+    background-color: #2196f3; /* Use Material Design primary color for button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #1976d2; /* Darken button color on hover */
+  }

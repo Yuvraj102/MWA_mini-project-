@@ -1,0 +1,68 @@
+button.buy-button {
+    width: 100%;
+    background-color: #c3ff9e;
+    color: #000; /* Text color */
+    border: none;
+    margin: 8px 8px; 
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none; /* Remove default focus styles */
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  button.buy-button:hover {
+    background-color: #a0f46e; /* Change color on hover */
+  }
+  
+  button.buy-button:active {
+    background-color: #7ddb3f; /* Change color on click */
+  }
+
+  .view-main{
+    display: flex;
+    height: fit-content;
+    border: 1px solid black;
+    margin: 64px auto; 
+    background-color: #f7f7f7;
+    width: 90%;
+   border-radius: 8px; 
+
+}
+body{
+  background-color: #f7f8e2;
+}
+.image-view{
+    margin: 64px 8px;
+    width: 60%;
+    height: auto;
+}
+.detail-view
+{
+    padding: 32px 32px;
+    text-align: left;
+    /* border: 1px solid black; */
+    /* display: inline; */
+    width: 39%;
+    margin: 8px 8px;
+}
+
+img
+{
+    object-fit: fill;
+}
+  
+.border
+{
+    border-top: 1px solid black; 
+    /* border-style:groove */
+}
+.border:last-of-type{
+    border-bottom: 1px solid black;
+}
+
+.h2{
+  color: #a9a9a9; 
+
+}

@@ -1,0 +1,42 @@
+.item-card {
+    border: 1px solid #bdbdbd; /* Use Material Design gray for border */
+    width: fit-content;
+    text-align: left;
+    margin: 8px 8px;
+    border-radius: 8px;
+    background-color: #fff; /* Use white background */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for elevation */
+}
+
+.text-items {
+    padding: 16px; /* Increase padding for better spacing */
+}
+
+.price {
+    font-size: 1.25rem; /* Increase font size */
+    font-weight: 500; /* Use medium font weight */
+    color: #2196f3; /* Use Material Design primary color for price */
+}
+
+.name {
+    font-weight: 500; /* Use medium font weight */
+    color: #000; /* Use black for name */
+}
+
+.username {
+    font-style: italic;
+    color: #616161; /* Use Material Design gray for username */
+}
+
+a {
+    text-decoration: none;
+    color: #000; /* Use black for link */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+.card-img{
+    width: 252px;
+}
