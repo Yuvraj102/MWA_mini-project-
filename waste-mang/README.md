@@ -1,3 +1,11 @@
+# How to use
+
+1. git clone the repo
+2. cd waste-mang_backend
+3. npm i ; npm run start
+4. cd waste-mang
+5. npm i ; npm run start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
